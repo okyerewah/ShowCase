@@ -39,8 +39,8 @@ ii. Open the `.env` file and replace the placeholders with your own credentials:
    ```  
 ## Note:   
 - You must **set up your own email credentials** to use the contact form.  
-- There must not be **any** spaces after the equal sign.
-
+- There must not be **any** spaces or quotation marks after the equal sign.
+- You can generate an app password by navingating to *'myaccount.google.com'* and searching **'App Password'** in the search bar.
 
 ### 4. Run the application  
 To start the server, use:  
