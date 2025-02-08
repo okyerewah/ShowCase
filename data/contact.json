@@ -1,0 +1,27 @@
+{
+    "title": "Let's Connect",
+    "subtitle": "Get in touch for inquiries, collaborations, or just to say hello",
+    "email": {
+      "label": "Email",
+      "value": "nanaafia.ntim@gmail.com"
+    },
+    "phone": {
+      "label": "Phone",
+      "value": "+233 (456) 789 - 1234"
+    },
+    "location": {
+      "label": "Studio Location",
+      "value": "Accra, Ghana"
+    },
+    "hours": {
+      "label": "Studio Hours",
+      "value": "Monday - Friday: 10am - 6pm"
+    },
+    "form": {
+      "title": "Send a Message",
+      "namePlaceholder": "Your Name",
+      "emailPlaceholder": "Your Email",
+      "messagePlaceholder": "Write your message here...",
+      "buttonText": "Send Message"
+    }
+  }

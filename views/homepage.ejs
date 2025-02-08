@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShowCase | Home</title>
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+
+<body>
+    <%# Attach header to homepage %>
+    <%- include('partials/header') %>
+    
+    <main>
+
+        <%# Hero section with Portrait image and tagline %>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="tagline"><%= data.tagline %></h1>
+                <div class="portrait">
+                    <img src="/images/AkuPortrait.jpeg" alt="Aku Shika Quaye">
+                </div>
+            </div>
+        </section>
+
+        <%# Biography Section %>
+        <section class="bio">
+            <div class="bio-container">
+                <h2><%= data.bio.name %></h2>
+                <div class="bio-content">
+                    <%- data.bio.content.split('\n').join('<br><br>') %>
+                </div>
+            </div>
+        </section>
+
+        <%# Randomly generated fact about Ghana %>
+         <section class="ghana-facts">
+            <div class="fact-container">
+                <h2>Did You Know?</h2>
+                <div class="fact">
+                    <%= data.ghanaFacts[Math.floor(Math.random() * data.ghanaFacts.length)] %>
+                </div>
+            </div>
+        </section>
+
+        <%# Timeline of achievements %>
+        <section class="timeline-section">
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+                <div class="timeline-items">
+                    <% data.achievements.forEach((achievement, index) => { %>
+                        <div class="timeline-item <%= index % 2 === 0 ? 'top' : 'bottom' %>">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="year"><%= achievement.year %></div>
+                                <h3><%= achievement.title %></h3>
+                                <p><%= achievement.description %></p>
+                            </div>
+                        </div>
+                    <% }); %>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <%# Attach footer to homepage %>
+    <%- include('partials/footer') %>
+
+ <%# JavaScript for scrolling %>
+    <script>
+        // Horizontal scroll for timeline
+        const timelineContainer = document.querySelector('.timeline-items');
+        timelineContainer.addEventListener('wheel', (e) => {
+        if (e.deltaY !== 0) {
+                    e.preventDefault();
+                    timelineContainer.scrollBy({ left: e.deltaY > 0 ? 100 : -100, behavior: 'smooth' });
+        }
+        });
+    </script>
+</body>
+</html>

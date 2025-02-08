@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShowCase | Projects</title>
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+    <%# Attach header to Projects page %>
+    <%- include('partials/header') %>
+    
+    <main class="projects-page">
+        <div class="projects-container">
+            <% data.projects.forEach(project => { %>
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="/images/ProjectMedia/<%= project.project_image_link %>" alt="<%= project.project_name %>">
+                    </div>
+                    <div class="project-info">
+                        <h2 class="project-title"><%= project.project_name %></h2>
+                        <p class="project-description"><%= project.project_description %></p>
+                        <div class="project-details">
+                            <p class="gallery"><%= project.gallery_displayed_in %></p>
+                            <p class="dates"><%= project.period_dates_of_display %></p>
+                        </div>
+                    </div>
+                </div>
+            <% }); %>
+        </div>
+    </main>
+
+    <script src="/scripts/main.js"></script>
+
+    <%# Attach footer to Projects page %>
+    <%- include('partials/footer') %>
+
+</body>
+</html>

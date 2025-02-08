@@ -1,0 +1,111 @@
+{
+    "projects": [
+      {
+        "project_name": "Fawohodie",
+        "project_description": "The curse of freedom",
+        "project_image_link": "project1.jpeg",
+        "gallery_displayed_in": "Exampell Museum of Contemporary Art, Japan",
+        "period_dates_of_display": "5th August 2011 - 28th October 2011"
+      },
+      {
+        "project_name": "Asase Ye Duru",
+        "project_description": "The earth is heavy, whispering promises of sustenance and sacrifice",
+        "project_image_link": "project2.jpeg",
+        "gallery_displayed_in": "Louvre Museum, France",
+        "period_dates_of_display": "12th June 2014 - 20th September 2014"
+      },
+      {
+        "project_name": "Tamfo Bebre",
+        "project_description": "My enemy's fatigue",
+        "project_image_link": "project3.jpeg",
+        "gallery_displayed_in": "Smithsonian American Art Museum, USA",
+        "period_dates_of_display": "1st March 2016 - 30th May 2016"
+      },
+      {
+        "project_name": "Kete Pa",
+        "project_description": "Obaa ko aware pa a na yede no to kete pa so",
+        "project_image_link": "project4.jpeg",
+        "gallery_displayed_in": "Tate Modern, UK",
+        "period_dates_of_display": "10th September 2017 - 25th November 2017"
+      },
+      {
+        "project_name": "Obohemaa",
+        "project_description": "Queen of stone, child of silence.",
+        "project_image_link": "project5.jpeg",
+        "gallery_displayed_in": "Zeitz MOCAA, South Africa",
+        "period_dates_of_display": "5th July 2019 - 20th October 2019"
+      },
+      {
+        "project_name": "Mate Masie",
+        "project_description": "The entirety of wisdom is to hear and to keep.",
+        "project_image_link": "project6.jpeg",
+        "gallery_displayed_in": "Guggenheim Museum, Spain",
+        "period_dates_of_display": "2nd May 2020 - 15th August 2020"
+      },
+      {
+        "project_name": "Boa Me Na Me Mmoa Wo",
+        "project_description": "One hand reaches, another answers—without both, neither survives",
+        "project_image_link": "project7.jpeg",
+        "gallery_displayed_in": "National Gallery of Art, USA",
+        "period_dates_of_display": "8th April 2021 - 30th July 2021"
+      },
+      {
+        "project_name": "Nyame Biribi Wo Soro",
+        "project_description": "God, there is something in the heavens.",
+        "project_image_link": "project8.jpeg",
+        "gallery_displayed_in": "The Met Museum, USA",
+        "period_dates_of_display": "10th January 2022 - 15th April 2022"
+      },
+      {
+        "project_name": "Nsoromma",
+        "project_description": "Child of the sky",
+        "project_image_link": "project9.jpeg",
+        "gallery_displayed_in": "Berlinische Galerie, Germany",
+        "period_dates_of_display": "5th June 2022 - 30th September 2022"
+      },
+      {
+        "project_name": "Ananse Ntontan",
+        "project_description": "Life's intricate web, which only the wise weave well",
+        "project_image_link": "project10.jpeg",
+        "gallery_displayed_in": "Museum of Fine Arts, Canada",
+        "period_dates_of_display": "1st February 2023 - 20th May 2023"
+      },
+      {
+        "project_name": "Nyame Dua",
+        "project_description": "Bloodshed and divine apathy",
+        "project_image_link": "project11.jpeg",
+        "gallery_displayed_in": "Museum of Contemporary Art, Australia",
+        "period_dates_of_display": "5th October 2023 - 28th December 2023"
+      },
+      {
+        "project_name": "AYA",
+        "project_description": "dbms",
+        "project_image_link": "project12.jpeg",
+        "gallery_displayed_in": "Singapore Art Museum, Singapore",
+        "period_dates_of_display": "15th January 2024 - 30th March 2024"
+      },
+      {
+        "project_name": "Nkyinkyim",
+        "project_description": "Twisting but never breaking.",
+        "project_image_link": "project13.jpeg",
+        "gallery_displayed_in": "Whitney Museum of American Art, USA",
+        "period_dates_of_display": "10th April 2024 - 25th June 2024"
+      },
+      {
+        "project_name": "Asetena Pa",
+        "project_description": "Good living circa 1920’s Gold Coast",
+        "project_image_link": "project14.jpeg",
+        "gallery_displayed_in": "Kunsthaus Zürich, Switzerland",
+        "period_dates_of_display": "1st July 2024 - 15th October 2024"
+      },
+      {
+        "project_name": "Duafe",
+        "project_description": "360 femininity",
+        "project_image_link": "project15.jpeg",
+        "gallery_displayed_in": "National Museum of Ghana, Ghana",
+        "period_dates_of_display": "20th November 2024 - 10th February 2025"
+      }
+      
+    
+    ]
+  }
